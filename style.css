@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar settings */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar h1 {
+    padding: 30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.nav ul li {
+    padding: 20px;
+    margin-top: 25px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.nav ul li a:hover {
+    color: rgb(255, 174, 0);
+}
+
+/* home settings */
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 179, 0);
+
+}
+
+.main h1 {
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 30px;
+}
+
+.main p {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.main img {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+}
+
+/* about section setting */
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.secondmain h1 {
+    margin-top: 30px;
+    font-size: 50px;
+    margin-left: 80px;
+
+}
+
+.secondmain h2 {
+    margin-left: 80px;
+    font-size: 30px;
+    color: rgb(255, 174, 0);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btnn {
+    margin-left: 80px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.secondmain img {
+    width: 500px;
+
+
+    margin-top: 30px;
+    box-shadow: 50px 50px darkgoldenrod;
+    height: 300px;
+}
+
+.para {
+    font-size: 22px;
+    color: black;
+    margin-left: 80px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.cards button {
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgrey;
+    border: none;
+    width: auto;
+}
+
+/* services settings */
+
+.text {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+
+}
+
+.maincard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.typecard {
+    background-color: lightgrey;
+    padding: 70px;
+    margin: 40px;
+}
+
+.typecard:hover {
+    background-color: black;
+    color: gray;
+}
+
+/* projects section settings */
+#projects h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.mainproject {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.project {
+    background-color: white;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.img img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 30px;
+}
+
+.imges {
+    display: grid;
+    grid-template-rows: repeat(3, 20vw);
+    grid-template-columns: repeat(3, 20vw);
+    justify-content: center;
+
+
+}
+
+/* pricing aection settings */
+#pricing h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+#pricing h6 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mainprice {
+    text-align: center;
+    background-color: gray;
+    padding: 60px;
+    margin: 20px;
+}
+
+.mainprice h1 {
+    font-size: 30px;
+}
+
+.mainprice h2 {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.mainprice h3 {
+    font-size: 50px;
+    background-color: rgb(255, 170, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+.mainprice h4 {
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+.pro {
+    background-color: rgb(255, 170, 0);
+    padding: 10px;
+    font-size: 22px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+}
+
+@media only screen and (max-width:1220px) {
+
+    .price {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+@media only screen and (max-width:1412px) {
+
+    .maincard {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width:1470px) {
+
+    .body {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+}
+
+@media only screen and (max-width:1530px) {
+
+    .imges {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media only screen and (max-width:1188px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .main img{
+        margin-left: 40px;
+    }
+
+}
+
+@media only screen and (max-width:1032px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+
+}
+
+@media only screen and (max-width:632px) {
+   .main img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    
+   }
+   .main h1{
+    font-size: 20px;
+   }
+   
+   .secondmain img{
+    width: 300px;
+
+
+    
+    box-shadow: 30px 30px darkgoldenrod;
+    height: 250px;
+   }
+
+}
+
+
+@media only screen and (max-width:506px){
+    .main p{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:1092px){
+    .secondmain h1{
+        font-size: 22px;
+    }
+    .secondmain h2{
+        font-size: 16px;
+    }
+    .secondmain p{
+        font-size: 10px;
+    }
+}
